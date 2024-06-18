@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+    font-family: "Red Hat Display", sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-color: hsl(225, 100%, 94%);
+    margin: 0;
+}
+
+a {
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+}
+
+img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.container2 {
+    padding: 20px 30px;
+}
+
+.order p {
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.annual img {
+    width: 48px;
+    height: 48px;
+    padding: 5px;
+}
+
+.annual {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 20px;
+    border-radius: 9px;
+}
+
+.price {
+    margin-right: auto;
+
+}
+
+.price p{
+    margin: 0;
+    padding-left: 15px;
+}
+
+.price :first-child{
+    font-weight: bold;
+}
+
+.price p:nth-child(2){
+    color:hsl(224, 23%, 55%);;
+}
+
+.payment > a {
+    text-decoration: none;
+    color: hsl(225, 100%, 98%);
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 15px;
+    /* border: solid 2px hsl(245, 75%, 52%); */
+    border-radius: 15px;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0px 24px 19px 0px hsla(245, 75%, 52%, 0.1);
+    transition: all 100ms ease-out;
+}
+.payment > a:hover{
+    background-color: hsl(245, 75%, 60%);
+}
+.payment > a:active{
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.1);
+}
+
+.cancel {
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
+}
+
